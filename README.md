@@ -1,6 +1,6 @@
 My personal LaTeX template using Awesome CV template 
 
-https://www.overleaf.com/project/62d6e47f2f9eae2ce190a23e
+https://www.overleaf.com/read/dmpwdjzqddwd
 
 Source:
 
