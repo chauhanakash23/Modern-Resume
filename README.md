@@ -8,5 +8,6 @@ https://github.com/posquit0/Awesome-CV
 
 https://www.overleaf.com/latex/templates/awesome-cv/dfnvtnhzhhbm
 
-![resume](https://user-images.githubusercontent.com/59489624/182032909-2450e407-f0cb-458c-9bf3-ea9f28823cd2.png)
-![resume v2](https://user-images.githubusercontent.com/59489624/182034508-13b3846f-e2af-46fa-a4a4-bbd60c79b50e.png)
+
+![resume v3](https://user-images.githubusercontent.com/59489624/182055250-ea9ad9f3-6674-43f9-a66f-73ee0e73b046.png)
+![resume v4](https://user-images.githubusercontent.com/59489624/182055252-d924333b-71d3-43e5-bf12-0a9205d7fc23.png)
