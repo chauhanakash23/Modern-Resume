@@ -2,6 +2,13 @@ My personal LaTeX template using Awesome CV template
 
 https://www.overleaf.com/read/dmpwdjzqddwd
 
+Instruction:
+-Download Will Modified Resume.zip file 
+-Open https://www.overleaf.com/project
+-Press New Project on the top left
+-Press Upload Project
+-Select the Will Modified Resume.zip file 
+
 Source:
 
 https://github.com/posquit0/Awesome-CV
