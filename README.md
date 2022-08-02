@@ -23,7 +23,7 @@ Instruction:
 8. Change the compiler to XeLaTeX, and press recompile
 
 
-Improvements: Added bulleted columns, fullly-covered color section, hyperlink footer, text styling, added notes / comments / code documentation, etc,...
+Improvements: Added hyperlink footer, bulleted columns, text styling, code documentation, etc,...
 
 
 Source:
