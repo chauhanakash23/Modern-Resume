@@ -30,5 +30,5 @@ https://github.com/posquit0/Awesome-CV
 https://www.overleaf.com/latex/templates/awesome-cv/dfnvtnhzhhbm
 
 
-![resume v7](https:/![resume v8](https://user-images.githubusercontent.com/59489624/182475870-da66539f-82d3-4581-8132-07145dbddabf.png)
-/user-images.githubusercontent.com/59489624/182475865-bc7d78e6-7f8f-4713-8ead-1432326db7d3.png)
+![resume v7](https://user-images.githubusercontent.com/59489624/182475952-f177980f-3d7b-45d9-91fd-2943c782489f.png)
+![resume v8](https://user-images.githubusercontent.com/59489624/182475965-044f0fac-96eb-4403-a2f6-2c064584d0ec.png)
