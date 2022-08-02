@@ -32,25 +32,34 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
-\usepackage{hyperref}
+\usepackage{multicol} % This is to make multi columns section.
+
+\usepackage{tasks} % This is also to make multi columns section. Not needed.
+
+\usepackage{hyperref} % This is to embed hyperlinks.
+
+\usepackage{comment} % This is to make multi line comments
+
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=0.8in, top=0.5in, right=0.8in, bottom=1in, footskip =.5in} 
+% (Left Margin+ Right Margin) / (Top Margin + Bottom Margin) = (0.8 + 0.8) / (0.5 + 0.5) = 1.6
+% 1.6 is approximately the golden ratio
+
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
+
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 % Uncomment on \colorlet (by removing the % sign) if you would like to use Awesome Colors
 %\colorlet{awesome}{awesome-skyblue}
 
-% Uncomment the line below to get blue color
 % Probably don't use color due to HR discrimination
 % On second thought, I like color better
-\definecolor{awesome}{HTML}{145a7d} 
 % Change Hex Code inside the third bracket if you would like to use another color
+\definecolor{awesome}{HTML}{145a7d} 
 % A nice blue color that I like is 145a7d
 % No color or completely back color is 000000
 
@@ -59,7 +68,7 @@
 \definecolor{darktext}{HTML}{000000}
 \definecolor{text}{HTML}{000000}
 \definecolor{graytext}{HTML}{000000}
-% Lightext is for the address (Houston, TX, 77072)
+% Lightext is for the personal address 
 \definecolor{lighttext}{HTML}{000000}
 
 % Set false if you don't want to highlight section with awesome color
@@ -74,6 +83,7 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
+%\vspace*{-4mm}
 \name{}{Byungjin Park}
 \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
 \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
@@ -96,6 +106,7 @@
 
 %\quote{``Be the change that you want to see in the world."}
 
+% Completely cover the cv section with color instead of partially cover
 \makeatletter
 \def\@sectioncolor{\color{awesome}}
 \makeatother

@@ -149,10 +149,11 @@
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false} 
 
 % Awesome section color
-\def\@sectioncolor#1#2#3{%
+% Add number with # (such as #1#2#3 next to @sectioncolor and \color{awesome}#1#2#3}}{#1#2#3}to add the word to highlight
+\def \@sectioncolor#1#2#3{%
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
 
@@ -193,16 +194,15 @@
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\color{awesome} #1}} % Add \scshape after \bodyfont to make it small cap
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\color{lighttext} #1}} % Add \itshape after \headerfont to make the word italics / italicize
 \newcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{text} #1}}
-\newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{darktext} #1}}
-\newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\color{lighttext} #1}} % Add \scshape after \bodyfont to make it small cap % Add \itshape after \headerfont to make the word italics / italicize
+\newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{darktext} #1}} % Add \itshape after \headerfont to make the word italics / italicize
+\newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\color{lighttext} #1}} % Add \scshape after \bodyfont to make it small cap
 \newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\textcolor{text}{#1}}} % Add \scshape after \bodyfont to make it small cap
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\color{graytext} #1}} 
-    % Add \scshape after \bodyfont to make it small cap
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\color{graytext} #1}} % Add \scshape after \bodyfont to make it small cap
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}} % Add \slshape next to \bodyfontlight to make the word italics / italicize
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{awesome} #1}} % Add \slshape next to \bodyfontlight to make the word italics / italicize
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
@@ -648,6 +648,7 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[4]{%
+% Change: Deleted , after \honorpositionstyle{#1}
   \honordatestyle{#4} & \honorpositionstyle{#1} \honortitlestyle{#2} & \honorlocationstyle{#3} \\
 }
 
@@ -675,11 +676,28 @@
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
+    %\setlength{\parindent}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
   \end{justify}
   \vspace{-4.0mm}
+}
+
+
+% Define an entry of cv information (modified to not include organization, title, location, and date)
+% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
+\newcommand*{\cvdescription}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    %\ifempty{#2#3}
+      %{\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      %{\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      %\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+  \end{tabular*}%
 }
 
 
