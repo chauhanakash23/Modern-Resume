@@ -3,17 +3,24 @@ My personal LaTeX template using Awesome CV template
 https://www.overleaf.com/read/dmpwdjzqddwd
 
 
+
 Instruction:
 
-1.Download Will Modified Resume.zip file 
+1. Download Will Modified Resume.zip file 
 
-2.Open https://www.overleaf.com/project
+2. Open https://www.overleaf.com/project
 
-3.Press New Project on the top left
+3. Press New Project on the top left
 
-4.Press Upload Project
+4. Press Upload Project
 
-5.Select the Will Modified Resume.zip file 
+5. Select the Will Modified Resume.zip file 
+
+6. Once uploaded, the template will not compile yet
+
+7. Press on menu on the top left
+
+8. Change the compilet to XeLaTeX
 
 
 Source:
