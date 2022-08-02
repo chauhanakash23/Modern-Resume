@@ -21,7 +21,7 @@ Instruction:
 
 4. Press Upload Project
 
-5. Select the Will Modified Resume.zip file. Once uploaded, the template will not compile yet.
+5. Select the Will_Modified_Resume.zip file. Once uploaded, the template will not compile yet.
 
 6. Press the menu button on the top left
 
