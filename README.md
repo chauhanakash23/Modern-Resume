@@ -23,6 +23,9 @@ Instruction:
 8. Change the compiler to XeLaTeX, and press recompile
 
 
+Improvements: Added bulleted columns, fullly-covered color section, hyperlink footer, text styling, added notes / comments / code documentation, etc,...
+
+
 Source:
 
 https://github.com/posquit0/Awesome-CV
