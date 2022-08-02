@@ -20,7 +20,7 @@ Instruction:
 
 7. Press on menu on the top left
 
-8. Change the compilet to XeLaTeX, and press recompile
+8. Change the compiler to XeLaTeX, and press recompile
 
 
 Source:
