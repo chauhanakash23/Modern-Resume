@@ -6,7 +6,7 @@ https://www.overleaf.com/read/dmpwdjzqddwd
 
 Instruction:
 
-1. Download ![Will Modified Resume.zip file](https://github.com/willb256/Will-Modified-Resume/blob/main/Will%20Modified%20Resume.zip)
+1. Download [Will Modified Resume.zip](https://github.com/willb256/Will-Modified-Resume/blob/main/Will%20Modified%20Resume.zip) file
 
 2. Open https://www.overleaf.com/project
 
