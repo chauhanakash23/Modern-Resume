@@ -21,13 +21,11 @@ Instruction:
 
 4. Press Upload Project
 
-5. Select the Will Modified Resume.zip file 
+5. Select the Will Modified Resume.zip file. Once uploaded, the template will not compile yet.
 
-6. Once uploaded, the template will not compile yet
+6. Press the menu button on the top left
 
-7. Press on menu on the top left
-
-8. Change the compiler to XeLaTeX, and press recompile
+7. Change the compiler to XeLaTeX, and press recompile
 
 
 ![resume v7](https://user-images.githubusercontent.com/59489624/182475952-f177980f-3d7b-45d9-91fd-2943c782489f.png)
