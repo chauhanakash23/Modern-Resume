@@ -25,7 +25,9 @@ Instruction:
 
 6. Press the menu button on the top left
 
-7. Change the compiler to XeLaTeX, and press recompile
+7. Change the compiler to XeLaTeX
+
+8. Press recompile on the right side
 
 
 ![resume v7](https://user-images.githubusercontent.com/59489624/182475952-f177980f-3d7b-45d9-91fd-2943c782489f.png)
