@@ -15,7 +15,7 @@ Instruction:
 
 1. Download [Will_Modified_Resume.zip](https://github.com/willb256/Will-Modified-Resume/blob/main/Will_Modified_Resume.zip) file. Don't unzip unless you want to use a different environment. 
 
-2. Open https://www.overleaf.com/project
+2. Open https://www.overleaf.com/project. Login or register for a free account if you have not done so. 
 
 3. Press New Project on the top left
 
