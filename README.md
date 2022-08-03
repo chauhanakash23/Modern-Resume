@@ -13,7 +13,7 @@ https://www.overleaf.com/latex/templates/awesome-cv/dfnvtnhzhhbm
 
 Instruction:
 
-1. Download [Will_Modified_Resume.zip](https://github.com/willb256/Will-Modified-Resume/blob/main/Will_Modified_Resume.zip) file
+1. Download [Will_Modified_Resume.zip](https://github.com/willb256/Will-Modified-Resume/blob/main/Will_Modified_Resume.zip) file. Don't unzip unless you want to use a different environment. 
 
 2. Open https://www.overleaf.com/project
 
@@ -30,5 +30,6 @@ Instruction:
 8. Press recompile on the right side
 
 
+Disclaimer: The original resume is from Awesome CV creator. This resume is not mine. 
 ![resume v7](https://user-images.githubusercontent.com/59489624/182475952-f177980f-3d7b-45d9-91fd-2943c782489f.png)
 ![resume v8](https://user-images.githubusercontent.com/59489624/182475965-044f0fac-96eb-4403-a2f6-2c064584d0ec.png)
