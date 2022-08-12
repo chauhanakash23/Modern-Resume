@@ -30,6 +30,6 @@ Instruction:
 8. Press recompile on the right side
 
 
-Disclaimer: The original resume is from Awesome CV creator. This resume is not mine. 
-![resume v7](https://user-images.githubusercontent.com/59489624/182475952-f177980f-3d7b-45d9-91fd-2943c782489f.png)
-![resume v8](https://user-images.githubusercontent.com/59489624/182475965-044f0fac-96eb-4403-a2f6-2c064584d0ec.png)
+Disclaimer: The person in this resume is not me. But rather, the original creator of Awesome CV. Some content has also been modified.
+![resume v11](https://user-images.githubusercontent.com/59489624/183143158-5b55b13b-9d4d-4eaf-8103-581957bd89eb.png)
+![resume v12](https://user-images.githubusercontent.com/59489624/183143163-aaa80a1f-3c5c-4881-a43a-afe433a45335.png)
